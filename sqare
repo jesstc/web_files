@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Made with Thimble</title>
+    <link rel="stylesheet" href="style.css">
+    <style type="text/css">
+      .square {
+        width: 80px;
+        height: 80px;
+        display: inline-block;
+        box-sizing: border-box;
+      }
+      .left {
+        border: solid 5px ORANGE;
+      }
+      .right  {
+        border: solid 5px RED;
+      }
+      .middle {
+        border: solid 2px BLUE;
+      }
+      .top_bottom {
+        background-color: #bdd8dd;
+      }
+      .circle {
+        width: 80px;
+        height: 80px;
+        background: purple;
+        border-radius: 100px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="square left top_bottom"></div>
+    <div class="square top_bottom middle"></div>
+    <div class="square top_bottom middle"></div>
+    <div class="square right top_bottom"></div>
+    <br>
+    <div class="square left "></div>
+    <div class="square middle"></div>
+    <div class="square middle"></div>
+    <div class="square right"></div>
+    <br>
+    <div class="square left "></div>
+    <div class="square middle"></div>
+    <div class="square middle"></div>
+    <div class="square right"></div>
+    <br>
+    <div class="square left top_bottom"></div>
+    <div class="square top_bottom middle"></div>
+    <div class="square top_bottom middle"></div>
+    <div class="square right top_bottom"></div>
+    <br>
+    <div class="circle"></div>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Made with Thimble</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript">
+      var a,b;
+      
+      do{
+        a = prompt("輸入A");
+        b = prompt("輸入B");
+      }
+      while (confirm("確認送出")==false);
+      //confirm是false，prompt是null
+      
+      
+      window.alert((parseInt(a)+ parseInt(b)));//parseInt:將字串轉換成數字
+      //要記得在parseInt(a)+ parseInt(b)外面再包一層括號(先算出來)
+      
+    </script>
+  </head>
+  <body>
+    <h1>Welcome to Thimble</h1>
+    <p>
+      Make something <strong>amazing</strong> with the web!
+    </p>
+  </body>
+</html>

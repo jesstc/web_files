@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>example1</title>
+  </head>
+  <body>
+    <h1>歡迎來到聊天室</h1>
+    <div id ="messege" style ="width: 300px; border: 2px solid black;">
+      
+    </div>
+    <div id ="a" style = "margin-top:10px;" >
+      <input type="text" id="add_content">
+      <button onclick="add()">送出</button>	
+    </div>
+    
+    <script type="text/javascript">
+      function add(){
+        var para = document.createElement("p");
+        para.innerHTML = document.getElementById("add_content").value;
+        /* same as the above line
+				var text = document.getElementById("add_content").value;
+				var node = document.createTextNode(text);
+				para.appendChild(node);
+			*/
+        var element = document.getElementById("messege");
+        element.appendChild(para);
+      }
+   /*   function del(){
+        var parent = document.getElementById("messege");
+        parent.remove(parent.selectedIndex); //from google
+      }
+      */
+    </script>
+  </body>
+</html>

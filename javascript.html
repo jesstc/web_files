@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Made with Thimble</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript">
+      var name,num ; 
+      name = "LALALA";
+      num = "100"
+      document.writeln("<h1>" + num + name + num + "</h1>");
+      //指定變數(不需要指定變數形式，只需要直接打var就好)
+      //一定要用"+變數+"的形式
+      
+      //var 陣列 = ["a","b","c"];
+      var cars = ["AA","BB","CC","DD"];
+      document.writeln("<h1>" + cars[0] + " " + cars[3] + "</h1>");
+      //裡面加[數字]表示顯示第幾個
+      
+      //object的properties寫法>>name:value
+      var person = {
+        firstname:"Huang",       //記得要逗號
+        lastname:"jing han",
+        age:18
+      };//還是要分號
+      document.writeln("<h1>I am " + person.firstname + "</h1>");
+      //person.firstname = person['firstname']
+      document.writeln("<h1>I am " + person["age"] + " years old.</h1>");
+      
+      var a = 5 + 5 ;
+      var b = "5" + 5 ;
+      var c = "hi" + 5 ;
+      document.writeln("<h1>" + a + " " + b + " " + c + "</h1>")
+      
+      
+    </script>
+  </head>
+  <body>
+    <p>
+      Make something <strong>amazing</strong> with the web!
+    </p>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Made with Thimble</title>
+    <link rel="stylesheet" href="style.css">
+    <style type="text/css">
+      .square {
+        width: 100px;
+        height: 100px;
+        position: fixed;
+      }
+      .top {
+        background-color: orange;
+        top: 100px;
+        left: 120px;
+        z-index: 3;
+      }
+      .middle {
+        background-color: red;
+        top: 120px;
+        left: 80px;
+        z-index: 2;
+      }
+      .bottom {
+        background-color: blue;
+        top: 80px;
+        left: 100px;
+        z-index: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="square top"></div>
+    <div class="square middle"></div>
+    <div class="square bottom"></div>
+  </body>
+</html>
